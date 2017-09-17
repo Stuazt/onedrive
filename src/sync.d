@@ -8,7 +8,7 @@ import config, itemdb, onedrive, selective, upload, util;
 static import log;
 
 // threshold after which files will be uploaded using an upload session
-private long thresholdFileSize = 4 * 2^^20; // 4 MiB
+private long thresholdFileSize = 40 * 2^^20; // 4 MiB
 
 private bool isItemFolder(const ref JSONValue item)
 {
