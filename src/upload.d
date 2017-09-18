@@ -2,7 +2,7 @@ import std.algorithm, std.conv, std.datetime, std.file, std.json;
 import onedrive;
 static import log;
 
-private long fragmentSize = 10 * 2^^20; // 10 MiB
+private long fragmentSize = 40 * 2^^20; // 10 MiB
 
 struct UploadSession
 {
